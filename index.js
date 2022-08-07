@@ -41,6 +41,7 @@ $(document).ready(function(){
 
 $('.random').on('click',function(){
     randomFunction();
+    $(this).text('Show me another random article!');
 });
 
 });
